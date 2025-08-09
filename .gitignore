@@ -105,9 +105,6 @@ replay_pid*
 /package-lock.json
 /yarn.lock
 
-# Environment files
-# /.env
-
 # Angular CLI and build artefacts
 /.angular-cli.json
 /.ng/
@@ -311,11 +308,11 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-# .env
-# .envrc
+.env
+.envrc
 .venv
-# env/
-# venv/
+env/
+venv/
 ENV/
 env.bak/
 venv.bak/
